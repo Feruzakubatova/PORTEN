@@ -1,0 +1,28 @@
+@import "vars";
+
+.brand {
+  &__img {
+    padding-bottom: 80px;
+  }
+  &__title {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    position: relative;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 80px;
+
+    &::before {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 2px;
+      background-color: #fff;
+      content: "";
+    }
+  }
+}

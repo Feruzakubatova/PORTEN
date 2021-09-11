@@ -1,0 +1,57 @@
+@import "vars";
+
+.cat {
+  height: 500px;
+
+  &__cat__cat__size {
+    width: 100%;
+    height: 500px;
+  }
+  &__item-title {
+    position: relative;
+    font-family: "Playfair Display";
+    font-weight: 700;
+
+    font-size: 36px;
+
+    margin-left: 80px;
+    padding-top: 60px;
+    margin-bottom: 70px;
+
+    align-items: center;
+
+    &::after {
+      position: absolute;
+      bottom: 0;
+      left: 150px;
+      top: 130px;
+      padding-top: -20px;
+
+      transform: translateX(-50%);
+      width: 150px;
+      height: 2px;
+      background-color: #fff;
+      content: "";
+    }
+  }
+  &__item--men1 {
+    min-height: auto;
+    background-image: url(../img/men1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 880px;
+  }
+  &__menu {
+    text-align: center;
+    margin-top: 85px;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+  }
+}
+
+.bg-gray {
+  background: rgb(56, 55, 55);
+}

@@ -1,0 +1,15 @@
+@import "vars";
+
+.footer__corp {
+  max-width: 100%;
+
+  &__footer {
+    font-family: $secondary-font;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: right;
+  }
+}
